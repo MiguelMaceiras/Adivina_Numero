@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Adiviña o Número</title>
+</head>
+<body>
+    <div class="contedor">
+        <h1>ADIVIÑA O NÚMERO</h1>
+        <p>Teño en mente un número entre 1 e 100. <br />¿Cántos intentos precisarás para adiviñalo?</p>
+        <div class="area-xogo">
+            <input type="number" id="xogada" placeholder="Insire a túa posición">
+            <button id="boton-entrada" onclick="comprobarSuposicion()">Adiviñar</button>
+        </div>
+        <div class="area-resultado">
+            <p id="mensaxe"></p>
+            <p id="intentos"></p>
+        </div>
+    </div>
+    
+    <script src="funcions.js"></script>
+</body>
+</html>
